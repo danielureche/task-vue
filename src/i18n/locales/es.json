@@ -1,0 +1,173 @@
+{
+  "auth": {
+    "login": {
+      "title": "TaskFlow",
+      "subtitle": "Organiza tu día con prioridad",
+      "form": {
+        "email": {
+          "label": "Correo electrónico",
+          "placeholder": "tu{'@'}email.com",
+          "validations": {
+            "required": "El correo electrónico es obligatorio.",
+            "invalid": "Por favor, introduce una dirección de correo electrónico válida."
+          }
+        },
+        "password": {
+          "label": "Contraseña",
+          "placeholder": "••••••••",
+          "validations": {
+            "required": "La contraseña es obligatoria.",
+            "min_length": "La contraseña debe tener al menos 6 caracteres."
+          }
+        },
+        "remember_me": "Recordarme",
+        "forgot_password": "¿Olvidaste tu contraseña?",
+        "button": {
+          "logging_in": "Iniciando sesión...",
+          "login": "Iniciar Sesión"
+        },
+        "no_account": "¿No tienes una cuenta?",
+        "register_here": "Regístrate aquí"
+      },
+      "messages": {
+        "success": "Inicio de sesión exitoso",
+        "error": "Error al iniciar sesión"
+      }
+    },
+    "register": {
+      "title": "TaskFlow",
+      "subtitle": "Crea tu cuenta",
+      "form": {
+        "name": {
+          "label": "Nombre completo",
+          "placeholder": "Juan Pérez",
+          "error": {
+            "required": "El nombre completo es obligatorio."
+          }
+        },
+        "email": {
+          "label": "Correo electrónico",
+          "placeholder": "tu{'@'}email.com",
+          "error": {
+            "required": "El correo electrónico es obligatorio.",
+            "invalid": "Por favor, introduce una dirección de correo electrónico válida."
+          }
+        },
+        "password": {
+          "label": "Contraseña",
+          "placeholder": "••••••••",
+          "error": {
+            "required": "La contraseña es obligatoria.",
+            "min_length": "La contraseña debe tener al menos 6 caracteres."
+          }
+        },
+        "confirm_password": {
+          "label": "Confirmar contraseña",
+          "placeholder": "••••••••",
+          "validations": {
+            "required": "La confirmación de la contraseña es obligatoria.",
+            "mismatch": "Las contraseñas no coinciden."
+          }
+        },
+        "terms": {
+          "accept": "Acepto los",
+          "terms_and_conditions": "términos y condiciones",
+          "and_the": "y la",
+          "privacy_policy": "política de privacidad",
+          "validations": {
+            "required": "Debes aceptar los términos y condiciones."
+          }
+        },
+        "button": {
+          "creating_account": "Creando cuenta...",
+          "create_account": "Crear Cuenta"
+        },
+        "already_have_account": "¿Ya tienes una cuenta?",
+        "login_here": "Inicia sesión aquí"
+      },
+      "messages": {
+        "success": "Cuenta creada correctamente",
+        "error": "Error al crear la cuenta"
+      }
+    },
+    "logout": "Cerrar sesión"
+  },
+  "header": {
+    "title": "TaskFlow"
+  },
+  "task_section": {
+    "title": "Mis Tareas",
+    "create_task": "Nueva Tarea"
+  },
+  "stats_card": {
+    "total": "Total de Tareas",
+    "completed": "Completadas",
+    "pending": "Pendientes",
+    "progress": "Progreso"
+  },
+  "task_modal": {
+    "title": {
+      "edit": "Editar Tarea",
+      "add": "Agregar Nueva Tarea"
+    },
+    "form": {
+      "title": {
+        "label": "Título",
+        "placeholder": "Nombre de la tarea",
+        "validations": {
+          "required": "El título es obligatorio."
+        }
+      },
+      "description": {
+        "label": "Descripción",
+        "placeholder": "Agregar una descripción"
+      },
+      "status": {
+        "label": "Estado",
+        "options": {
+          "pending": "Pendiente",
+          "in_progress": "En Progreso",
+          "completed": "Completada"
+        },
+        "validations": {
+          "required": "El estado es obligatorio."
+        }
+      },
+      "buttons": {
+        "cancel": "Cancelar",
+        "update": "Actualizar",
+        "create": "Crear"
+      }
+    }
+  },
+  "delete_confirmation_modal": {
+    "message": "¿Estás seguro de que quieres eliminar la tarea",
+    "buttons": {
+      "cancel": "Cancelar",
+      "delete": "Eliminar"
+    }
+  },
+  "status_badge": {
+    "pending": "Pendiente",
+    "in_progress": "En progreso",
+    "completed": "Completado"
+  },
+  "messages": {
+    "errors": {
+      "get_tasks": "Error al cargar las tareas",
+      "add_task": "Error al crear la tarea",
+      "update_task": "Error al actualizar la tarea",
+      "delete_task": "Error al eliminar la tarea",
+      "create_task": "Error al crear la tarea",
+      "create_account": "Error al crear la cuenta",
+      "login": "Error al iniciar sesión"
+    },
+    "success": {
+      "add_task": "Tarea creada con éxito",
+      "update_task": "Tarea actualizada correctamente",
+      "delete_task": "Tarea eliminada correctamente",
+      "create_account": "Cuenta creada correctamente",
+      "login": "Inicio de sesión exitoso"
+    }
+  }
+}

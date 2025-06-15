@@ -1,0 +1,173 @@
+{
+  "auth": {
+    "login": {
+      "title": "TaskFlow",
+      "subtitle": "Organize your day with priority",
+      "form": {
+        "email": {
+          "label": "Email",
+          "placeholder": "your{'@'}email.com",
+          "validations": {
+            "required": "Email is required.",
+            "invalid": "Please enter a valid email address."
+          }
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "••••••••",
+          "validations": {
+            "required": "Password is required.",
+            "min_length": "Password must be at least 6 characters long."
+          }
+        },
+        "remember_me": "Remember me",
+        "forgot_password": "Forgot your password?",
+        "button": {
+          "logging_in": "Logging in...",
+          "login": "Login"
+        },
+        "no_account": "Don't have an account?",
+        "register_here": "Register here"
+      },
+      "messages": {
+        "success": "Login successful",
+        "error": "Error logging in"
+      }
+    },
+    "register": {
+      "title": "TaskFlow",
+      "subtitle": "Create your account",
+      "form": {
+        "name": {
+          "label": "Full Name",
+          "placeholder": "John Doe",
+          "validations": {
+            "required": "Full name is required."
+          }
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "your{'@'}email.com",
+          "validations": {
+            "required": "Email is required.",
+            "invalid": "Please enter a valid email address."
+          }
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "••••••••",
+          "validations": {
+            "required": "Password is required.",
+            "min_length": "Password must be at least 6 characters long."
+          }
+        },
+        "confirm_password": {
+          "label": "Confirm Password",
+          "placeholder": "••••••••",
+          "validations": {
+            "required": "Password confirmation is required.",
+            "mismatch": "Passwords do not match."
+          }
+        },
+        "terms": {
+          "accept": "I accept the",
+          "terms_and_conditions": "terms and conditions",
+          "and_the": "and the",
+          "privacy_policy": "privacy policy",
+          "validations": {
+            "required": "You must accept the terms and conditions."
+          }
+        },
+        "button": {
+          "creating_account": "Creating account...",
+          "create_account": "Create Account"
+        },
+        "already_have_account": "Already have an account?",
+        "login_here": "Login here"
+      },
+      "messages": {
+        "success": "Account created successfully",
+        "error": "Error creating account"
+      }
+    },
+    "logout": "Logout"
+  },
+  "header": {
+    "title": "TaskFlow"
+  },
+  "task_section": {
+    "title": "My Tasks",
+    "create_task": "New Task"
+  },
+  "stats_card": {
+    "total": "Total Tasks",
+    "completed": "Completed",
+    "pending": "Pending",
+    "progress": "Progress"
+  },
+  "task_modal": {
+    "title": {
+      "edit": "Edit Task",
+      "add": "Add New Task"
+    },
+    "form": {
+      "title": {
+        "label": "Title",
+        "placeholder": "Task name",
+        "validations": {
+          "required": "Title is required."
+        }
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Add a description"
+      },
+      "status": {
+        "label": "Status",
+        "options": {
+          "pending": "Pending",
+          "in_progress": "In Progress",
+          "completed": "Completed"
+        },
+        "validations": {
+          "required": "Status is required."
+        }
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "update": "Update",
+        "create": "Create"
+      }
+    }
+  },
+  "delete_confirmation_modal": {
+    "message": "Are you sure you want to delete the task",
+    "buttons": {
+      "cancel": "Cancel",
+      "delete": "Delete"
+    }
+  },
+  "status_badge": {
+    "pending": "Pending",
+    "in_progress": "In Progress",
+    "completed": "Completed"
+  },
+  "messages": {
+    "errors": {
+      "get_tasks": "Error loading tasks",
+      "add_task": "Error creating task",
+      "update_task": "Error updating task",
+      "delete_task": "Error deleting task",
+      "create_task": "Error creating task",
+      "create_account": "Error creating account",
+      "login": "Error logging in"
+    },
+    "success": {
+      "add_task": "Task created successfully",
+      "update_task": "Task updated successfully",
+      "delete_task": "Task deleted successfully",
+      "create_account": "Account created successfully",
+      "login": "Login successful"
+    }
+  }
+}
